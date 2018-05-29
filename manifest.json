@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Sketchy",
+  "version": "1.0",
+  "content_scripts": [{
+    "js": ["p5.js", "p5.dom.js", "sketch.js"],
+    "matches": [
+      "<all_urls>"
+    ]
+  }]
+}
